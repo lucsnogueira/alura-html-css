@@ -1,10 +1,27 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #E1DEDA;
     color: #948C81;
 }
 
-strong {
+.titulo-destaque {
     color: #728894;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
+
+#perfil {
+    width: 488px;
+    height: 500px;
 }
